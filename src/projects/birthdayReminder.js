@@ -38,7 +38,6 @@ const peoplesData = [
 ];
 export default function UseBirthdayReminder() {
   const [peoples, setPeoples] = React.useState(peoplesData);
-  var counter = 0;
   return (
     <React.Fragment>
       <div className="card">

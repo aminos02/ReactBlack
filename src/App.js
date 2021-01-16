@@ -1,5 +1,5 @@
 import React from "react";
-import Effect from "./tutorial/2-useEffect/setup/3-useEffect-fetch-data"
+import Effect from "./tutorial/4-forms/setup/1-controlled-inputs"
 function App() {
   return (
     <div className="container">
