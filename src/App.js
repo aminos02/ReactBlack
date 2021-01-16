@@ -1,10 +1,9 @@
 import React from "react";
-import UsState from "./tutorial/1-useState/setup/3-useState-array";
-import Birthday from "./projects/birthdayReminder";
+import Effect from "./tutorial/2-useEffect/setup/2-useEffect-cleanup"
 function App() {
   return (
     <div className="container">
-      <Birthday />
+      <Effect />
     </div>
   );
 }
