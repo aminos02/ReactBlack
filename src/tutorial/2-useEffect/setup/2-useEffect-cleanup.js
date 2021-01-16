@@ -10,7 +10,7 @@ const UseEffectCleanup = () => {
     window.addEventListener('resize' ,()=>setSize(window.innerWidth));
     // window.removeEventListener('resize',()=>setSize(window.innerWidth))
 
-  },[])
+  },[]) 
   return <>
   <h2>Window Size</h2>
   <h3>{size}</h3>
