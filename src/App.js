@@ -1,10 +1,12 @@
-import React from 'react'
+import React from "react";
+import UsState from "./tutorial/1-useState/setup/3-useState-array";
+import Birthday from "./projects/birthdayReminder";
 function App() {
   return (
-    <div className='container'>
-      <h2>Advanced Tutorial</h2>
+    <div className="container">
+      <Birthday />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
