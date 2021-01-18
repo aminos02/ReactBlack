@@ -4,8 +4,8 @@ const Book = (book) => {
   const { img, title, author } = book;
 
   const clickHandler = (e) => {
-    console.log(e.target);
-    return alert("HHHHH I kill You");
+    // console.log(e.target);
+    return alert("Thanks for purchase");
   };
 
   const clickHandler2 = (par) => console.log(par);
@@ -16,7 +16,7 @@ const Book = (book) => {
       <h1 onClick={() => console.log(title)}>{title}</h1>
       <h4>{author}</h4>
       <button type="button" onClick={clickHandler}>
-        Click Me Or I kill You
+        By Me Please
       </button>
       <button type="button" onClick={() => clickHandler2(title)}>
         Click Here
