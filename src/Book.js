@@ -18,9 +18,9 @@ const Book = (book) => {
       <button type="button" onClick={clickHandler}>
         By Me Please
       </button>
-      <button type="button" onClick={() => clickHandler2(title)}>
+      {/* <button type="button" onClick={() => clickHandler2(title)}>
         Click Here
-      </button>
+      </button> */}
     </article>
   );
 };
