@@ -1,9 +1,9 @@
 import React from "react";
-import Effect from "./tutorial/6-useReducer/setup"
+import Setup from "./tutorial/12-memo-useMemo-useCallback/setup"
 function App() {
   return (
     <div className="container">
-      <Effect />
+      <Setup />
     </div>
   );
 }
